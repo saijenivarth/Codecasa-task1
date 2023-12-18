@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ 
+
+
+body{
+    background-color: #fff; 
+}
+
+.main{
+     
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    color: rgb(249, 199, 108);
+    
+}
+
+ 
+
+ 
+.navbar{
+    
+        
+     
+    width: 86%;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+ 
+     
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: 2%;
+}
+
+ul{
+    margin-top: 0%;
+    margin-right: 0%;
+   
+     
+
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255,181,0);
+    margin-top: -3%;
+    transition: .4s ease;
+     
+     
+    
+
+}
+
+ul li a:hover{
+    color: rgb(15, 14, 13);
+}
+ 
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 40px;
+    color: rgb(14, 13, 13);
+}
+
+.info h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #0c0b0b;
+    line-height: 24px;
+}
+.info h4{
+    font-size: 19px;
+    color: #0e0c0c;
+    font-family:'Courier New', Courier, monospace
+}
+
+
+.info span{
+    color: rgb(255,181,0);
+}
+
+.button{
+    text-decoration:  none;
+    color: #080707;
+    background: rgb(241, 240, 239);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.button:hover{
+    background: rgb(255,181,0);
+}
+
+ 
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .boy{
+    left: 55%;
+}
+
+
+.icons{
+     
+    margin-left: 6rem;
+}
+.icons a{
+    margin-left: 15px;
+    font-size: 2.5rem;
+}
+
+.icons .bxl-facebook-circle:hover{
+    color:#526eff !important;
+}
+
+.icons .bxl-instagram:hover{
+    color:#ff0077 !important;
+}
+
+.icons .bxl-twitter:hover{
+    color:#00d5ff !important;
+}
+.icons .bxl-linkedin-square:hover{
+    color:#054976 !important;
+}
+
+#ABOUT{
+     
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 60px;
+
+}
+h5{
+    font-size: xx-large;
+}
+
+ 
+
+
+
+.about-containers {
+    gap: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    justify-content: center; /* Center items horizontally */
+    align-items: center;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-containers :hover {
+    transform: scale(1.05);
+}
+
+.about-pic {
+    border-radius: 100px;
+    height: 20%;
+    width: 20%;
+}
+
+ 
+
+.details-container {
+    padding: 1.5rem;
+    width: 200px;
+    height: 100px;
+     
+    color: #050404;
+    background-color: #fff;
+     
+    border: 1px solid #f5f5f9;
+     
+    border-radius: 30px;
+    color: var(--text-black-700);
+     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+}
+.details-container img{
+    height: 40px;
+    width: auto;
+
+}
+.details-container icon{
+ cursor: pointer;
+ height: 2rem;
+}
+
+.text-container h4{
+    font-size: 19px;
+    color: #0e0c0c;
+    font-family:'Courier New', Courier, monospace
+}
+ 
+
+ 
+ 
+
+/* Skills Section */
+#SKILLS {
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    padding-top: 60px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin-top: 60px;
+}
+
+.skills-left,
+.skills-right {
+    flex: 1;
+}
+
+.skill {
+    margin: 20px 0;
+    display: center;
+    flex-direction: column;
+    margin-left: 90px;
+    align-items: flex-start;
+}
+
+.skill-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 60px;
+    height: 20px;
+    width: 50%;
+}
+
+.skill-percentage {
+    background-color: rgb(221, 176, 51);
+    border-radius: 30px;
+    color: white;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+
+ 
+
+/* Additional Skills Section */
+#ADDITIONAL_SKILLS {
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    padding-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.skill1 {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.circular-progress {
+    position: relative;
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    background: conic-gradient(#F79F1F 3.6deg, #ededed 0deg);
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0b0b0a;
+}
+
+.text1 {
+    font-size: 20px;
+    font-weight: 450;
+    margin-top: 30px;
+    color: #606060;
+}
+
+
+#SERVICES{
+    text-align: center; 
+    font-style: italic;
+    width: 100%;
+    background-color: #fff;
+    background-position: center; 
+    background-size: cover;
+    height: 80vh;
+    position: relative; 
+    padding-top: 60px;
+}
+
+.service{
+    padding: 100px 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+ 
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.card{
+    padding: 1.2rem;
+    width: 200px;
+    height: 230px;
+     
+    color: #050404; 
+    background-color: #fff;
+     
+    border: 1px solid #f5f5f9;
+     
+    border-radius: 30px;
+    color: var(--text-black-700);
+     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: center;
+
+    }
+
+
+
+
+.card:hover{
+ background-color:#f19813;
+}
+.box{
+    transition: all 0.3s ease;
+}
+
+.card:hover.box{
+    transform: scale(1.0s);
+
+}
+
+.box i{
+    font-size: 50px;
+    color:#f1ede7;
+    transition: color 0.3s ease;
+
+}
+  
+
+ 
+.card:hover.box{
+    color:#fff;
+
+}
+
+.box h6{
+    font-size: 25px;
+    padding: 100px 0 7 px;
+}
+
+
+@media screen and (max-width: 1190px){
+    .max-width{
+        padding:0 25px;
+    }
+    .card{
+        width:calc(50% -10px);
+        margin-bottom: 20px;
+    }
+}
+
+.move-to-new-line {
+    padding: 50px 25px;
+    width: calc(26%- 20px);
+    border-radius: 10px;
+    background:white; 
+    height: 100%;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: color 0.3s ease;
+}
+ 
+
+ 
+    #PROJECTS {
+        /* Existing styles remain unchanged */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+#my-projects-header {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    font-style: italic;
+}
+
+ 
+ 
+/* Style the project cards */
+.project-card {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+     
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    margin: 70px;
+    width: calc(25% - 40px); 
+    max-width: 300px;  
+    flex: 1 0 auto;  
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background-color: #F79F1F;
+}
+
+ 
+.project-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;  
+    height: auto;  
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.project-card img {
+    width: 80%;  
+    height: auto;  
+    display: block;
+    margin: 0 auto;  
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #0b0a0a;  
+}
+
+.project-card p {
+    font-size: 18px;
+    color: #0c0c0c;  
+}
+
+
+.btn-color-1{
+     border:rgb(53,53,53) 0.1rem solid;
+    font-size: 15px;
+    padding: 10px;
+}
+.btn-color-1:hover{
+      background-color: #f3f1ee;
+    font-size: 15px;
+}
+.btn{
+    font-weight: 700;
+    transition: all 300ms ease;
+    padding: 6 rem;
+    width: 7rem;
+    border-radius: 2rem;
+}
+
+#CONTACT{
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    padding-top: 90px;
+}
+
+
+
+#lets-connect {
+    background-color: #fff;
+    padding: 40px;
+     
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#lets-connect h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sub-container i {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.label {
+    font-size: 18px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 32px;
+    color: #119bf7;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #0584e5;
+}
+footer{
+    background-color: #fff;
+    color: rgb(13, 13, 13);
+    font-size: 21px;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+
+/* Your CSS styles here */
+ 
+
+
+
+.container1 {
+    max-width: 700px;
+    margin-top: 50px !important;
+    height: 300px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(235, 233, 233, 0.322);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(235, 233, 233, 0.753);
+}
+
+ 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+     margin-right: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d0d0d;
+    color: white;
+    border: 5px;
+     width: 92%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+     
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #e99d11;
+}
+
+#thank-you {
+    text-align: center;
+    font-weight: bold;
+    font-size:larger;
+    margin-top: 20px;
+    color: #4CAF50;
+}
